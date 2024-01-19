@@ -33,7 +33,7 @@ a{
 }
 /*header*/
 .header{
- background-color: rgba(11, 189, 154,.9);
+ background-color: rgba(11, 32, 189, 0.9);
 }
 .header-left{
     float: left;
