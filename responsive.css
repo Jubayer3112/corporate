@@ -1,0 +1,67 @@
+@media (max-width: 793px) {
+  .header-right ul li a {
+    padding: 0 5px;
+  }
+}
+@media (max-width: 714px) {
+  .header-left {
+    float: left;
+    width: 50%;
+  }
+  .header-right {
+    float: left;
+    width: 50%;
+  }
+  .header-right ul {
+    text-align: center;
+    display: none;
+  }
+  .fa-burger {
+    display: block;
+  }
+  .bar:checked~ .mobile{
+    height: 180px;
+  }
+}
+@media (max-width: 480px) {
+  .header-right ul li a {
+    line-height: 40px;
+    font-size: 9px;
+  }
+  .banner {
+    padding: 84px 0;
+    background-position: 80% 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .service-item {
+    width: 100% !important;
+  }
+}
+@media (max-width: 850px) {
+  .service-item {
+    width: 46%;
+    padding: 37px 0px;
+  }
+}
+@media (max-width: 1409px) {
+  .about-left {
+    float: none;
+    width: 100%;
+  }
+  .about-left img {
+    width: 1200px;
+  }
+  .about-right {
+    float: none;
+    width: 100%;
+  }
+}
+@media (max-width: 717px) {
+  .contact-section {
+    float: none;
+    width: 100%;
+    padding: 20px 0;
+  }
+}
